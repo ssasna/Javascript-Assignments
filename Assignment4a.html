@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+//        var userName=prompt("Enter Name");
+//        document.write("Name="+userName);
+
+//                var table= parseInt( prompt("Enter table of","5"));
+//                document.write( "<br>" + table+ " X 1 =" + table*1);
+//                document.write( "<br>" +  table+ " X 2 =" + table*2);
+//                document.write( "<br>" +  table+ " X 3 =" + table*3);
+//                document.write( "<br>" +  table+ " X 4 =" + table*4);
+//                document.write( "<br>" +  table+ " X 5 =" + table*5);
+//                document.write( "<br>" +  table+ " X 6 =" + table*6);
+//                document.write( "<br>" +  table+ " X 7 =" + table*7);
+//                document.write( "<br>" +  table+ " X 8 =" + table*8);
+//                document.write( "<br>" +  table+ " X 9 =" + table*9);
+//                document.write( "<br>" +  table+ " X 10 =" + table*10);
+
+//                    var city=prompt("Enter City");
+//                    if (city=="Karachi")
+//                    {
+//                        alert("Welcome to city of lights")
+//                    };
+
+//        var gender=prompt("Eneter Gender");
+//        if (gender=="Male")
+//        {
+//           document.write(  "welcome sir");
+//        }
+//        else
+//        {
+//            document.write( "Welcome Ma'am");
+//        }
+
+//        var signal=prompt("Signal");
+//
+//        if (signal=="Red")
+//            {document.write("Stop")};
+//        if ( signal=="Green")
+//        {
+//            document.write("Go");
+//        }
+//        if (signal=="Orange")
+//        {
+//            document.write("Get Ready");
+//        }
+//
+//
+//        var maxAge =   parseInt( prompt("MaxAge"));
+//        var currAge=   parseInt( prompt("Current Age"));
+//
+//        if (currAge<maxAge)
+//        {
+//            document.write("Welcome");
+//        }
+
+//        var fuel=parseFloat (prompt("Enter Fuel"));
+//        if (fuel<0.25)
+//        {
+//            document.write("Please refill the fuel in your car");
+//        }
+
+//        var a=4;
+//        if (++a===5)
+//        {
+//            alert("True");
+//        }
+//
+//        var b=82;
+//        if (b++===83)
+//        {
+//            alert("True82")
+//        }
+//
+//        var c=12;
+//        if (c++===13)
+//        {
+//            alert("condition 1 is true");
+//        }
+//
+//        if (c===13)
+//        {
+//            alert("condition 2 is tru");
+//        }
+//
+//        if (++c<14)
+//        {
+//            alert("Consdition 3 is true");
+//        }
+//
+//        if (c===14)
+//        {
+//            alert("Condition 4 is true");
+//        }
+
+//        var materialCost=20000;
+//        var labourCost=2000;
+//        var totalCost=materialCost+labourCost;
+//        if (totalCost===materialCost+labourCost)
+//        {
+//            document.write("Cost Equal");
+//        }
+//
+//        if (true)
+//        {
+//            alert("True");
+//        }
+//        if (false)
+//        {
+//            alert("False");
+//        }
+
+//        if ("car"<"cat")
+//        {
+//            alert("car is smaller than cat");
+//        }
+//=========================9=====================
+//        var sub1    =   parseInt( prompt("Sub1"));
+//        var sub2    =   parseInt( prompt( "Sub2"));
+//        var sub3    =   parseInt( prompt("Sub3"));
+//        var tot     =   parseInt(prompt("Tot"));
+//
+//        var totMarks=sub1+sub2+sub3;
+//
+//        var percent    =  (totMarks*100)/tot;
+//        var grade;
+//        var remarks;
+//
+//        document.write("Perc=" + percent);
+//        if (percent<60)
+//        {
+//            grade="Fail";
+//            remarks="Sorry";
+//        }
+//        if (percent>=60 && percent<70)
+//        {
+//            grade="B";
+//
+//            remarks="You need to improve";
+//        }
+//        if  (percent>=70 && percent<80)
+//        {
+//            grade="A";
+//            remarks="Good";
+//        }
+//        if (percent>=80 && percent<90)
+//        {
+//            grade="A1";
+//            remarks="Excellent";
+//        }
+//
+//
+//        document.write("<b>Mark Sheet</b><br><br>");
+//        document.write("Total Marks:"+tot);
+//        document.write("<br><br>Marks Obtained:"+totMarks);
+//
+//
+//        document.write("<br><br>Perc:"+percent);
+//
+//        document.write("<br><br>Grade:"+grade);
+//        document.write("<br><br>Remarks:"+remarks);
+
+//========================10===============
+//        var i1=parseInt(prompt("<br>Item1 price:"));
+//        var i2=parseInt(prompt("<br>Item2 price:"));
+//        var q1=parseInt(prompt("<br>Item1 Qty:"));
+//        var q2=parseInt(prompt("<br>Item2 Qty:"));
+//        var shipCharges=parseInt(prompt("Shipping Charges:"));
+//
+//
+//        document.write( "<br><b>Invoice of shopping cart</b>");
+//        document.write("<br>Price of Item1 is "+ i1);
+//        document.write("<br>Qty of Item1 is "+ q1);
+//        document.write("<br>Price of Item2 is "+ i2);
+//        document.write("<br>Qty of Item2 is "+ q2);
+//        document.write("<br><br>Shipping Charges is "+ shipCharges);
+//        var Tot=(i1*q1)+(i2*q2)+shipCharges;
+//        document.write("<br><br> Total Cost " + Tot );
+//
+//        if (Tot>2000)
+//        {
+//            var Disc=(Tot*10)/100;
+//        }
+//
+//        document.write("<br><b>Discount Price=</b>"+Disc);
+//        document.write("<br><b>Net=</b>"+(Tot-Disc));
+
+//====================11==================
+//        var secret=4;
+//        var urNo=parseInt(prompt("ur No."));
+//        if (urNo==secret)
+//        {
+//            document.write("Bingo!Correct Answer");
+//        }
+//        else
+//        if (++urNo ==secret||--urNo ==secret)
+//        {
+//            document.write("close enough to the correct answer");
+//        }
+//        document.write(urNo);
+//=================12=============
+//        var divBy3=parseInt(prompt("No."));
+//        if ((divBy3%3)==0)
+//        {
+//            document.write("Divisible");
+//        }
+//===============13===============
+//var name1= prompt("Enter Team Name");
+//var t1No=parseInt(prompt("T1 Score"));
+//var name2=parseInt(  prompt("Enter 2nd Team"));
+//var t2No=parseInt(prompt(("T2 Score")));
+//
+//        if (t1No>t2No)
+//        {
+//            alert(name1+"have won the match");
+//        }
+//        else if(t1No==t2No)
+//        {
+//            alert("Equal");
+//        }
+//==================14==============
+//var str="Pakistan";
+//var No=2;
+//var bool=true;
+//
+//alert("str is " + typeof(str));
+//alert("No is " +typeof (No));
+//alert("bool is "+ typeof (bool));
+//================15===========
+//        var No=parseInt(prompt("No."));
+//        if (No%2==0)
+//        {
+//            alert("Even");
+//        }
+//        else
+//        {
+//            alert("Odd");
+//        }
+//============16==========
+//var T=parseInt(prompt("Temprature"));
+//if (T>10 && T<20)
+//{
+//    document.write("So Cool");
+//}
+//if (T>20 && T<30)
+//{
+//    document.write("Cool");
+//}
+//if (T>30 && T<40)
+//{
+//    document.write("Normal");
+//}
+//if (T>40)
+//{
+//    document.write("Hot");
+//}
+//==================17=========
+var F1=parseInt(prompt("1st"));
+var F2=parseInt(prompt("2nd"));
+var Op=prompt("Operator");
+var result=F1 + Op + F2;
+alert("result"+result);
+
+document.write("Ascii"   .charCodeAt("a"));
+
+//if (Op==="+")
+//{
+//    result=F1 + F2;
+//    result("result="+result);
+//}
+//if (Op==="-")
+//{
+//    result=F1 - F2;
+//    result("result="+result);
+//}
+//if (Op==="*")
+//{
+//    result=F1 * F2;
+//    result("result="+result);
+//}
+//if (Op==="/")
+//{
+//    result=F1 / F2;
+//    result("result="+result);
+//}
+//===============18==============
+//var day=prompt("Day");
+//if (day=="Monday"||day=="Tuesday"||day=="Wednesday"||day=="Thursday"||day=="Friday")
+//{
+//    document.write("Working Days");
+//}
+//if (day=="Saturday")
+//{
+//    document.write("Weekend");
+//}
+//if (day=="Sunday")
+//{
+//    document.write("Holiday");
+//}
+//==============19============
+//var score=parseInt(prompt("Score"));
+//        if (score>50)
+//        {
+//            document.write("Passed");
+//        }
+//        else
+//        {
+//            document.write("Failed");
+//        }
+//
+//=============20==========
+//        var F1=parseInt(prompt("F1"));
+//        var F2=parseInt(prompt("F2"));
+//        if (F1>F2)
+//        {
+//            document.write(F1 + " is greater than " + F2);
+//        }
+//        else
+//        {
+//            document.write(F2 + " is greater than " + F1);
+//        }
+//===========21===========
+//        var lang=prompt("Enter Lang Code");
+//        if (lang=="En")
+//        {
+//            document.write("Hello Word");
+//        }
+//        if (Lang=="Ur")
+//        {
+//            document.write("Khush Amdeed");
+//        }
+//        if (Lang=="Hi")
+//        {
+//            document.write("Namaste");
+//        }
+//=============22=========
+//var No=parseInt(prompt("No"));
+//        if (No>=0)
+//        {
+//            document.write("Positive");
+//        }
+//        if (No<0)
+//        {
+//            document.write("Negative");
+//        }
+//=============23==========
+//        var No=parseInt(prompt("No."));
+//        var Item=prompt(("Item"));
+//        if (No>1)
+//        {
+//            document.write(Item+"s");
+//        }
+//        else
+//        {
+//            document.write(Item);
+//        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
