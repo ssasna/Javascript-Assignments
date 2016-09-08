@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+//==============1========
+// /        var age= Number(prompt("Enter Age"));
+//        switch (age > 18)
+//        {
+//            case true:
+//                alert("Old Enough");
+//                break;
+//            case false:
+//                alert("Too young");
+//                break;
+//            default :
+//                document.write("Default");
+//        }
+/////===========2========
+//        var div=prompt("Enter Number");
+//        switch (div%3){
+//            case 0:
+//                alert("Divisible by 3");
+//                break;
+//            default:
+//                alert("Not divisible");
+//        }
+//===============3=========
+//        function calc(){
+//            var n1=parseInt(prompt("Enter 1st Number"));
+//            var n2=parseInt(prompt("Enter 2nd Number"));
+//            var op=prompt("Enter Operation");
+//            var result=0;
+//            alert("Op="+op);
+//            switch (op){
+//                case "+":
+//                    result=n1+n2;
+//                    break;
+//                case "-":
+//                    result=n1-n2;
+//                    break;
+//                case "*":
+//                    result=n1*n2;
+//                    break;
+//                case "/":
+//                    result=n1/n2;
+//                    break;
+//                case "%":
+//                    result=n1%n2;
+//                    break;
+//                default :
+//                    result=0;
+//                    break;
+//            }
+//            document.write("result="+result);
+//        }
+//        calc();
+
+//===============4=========
+//        function getDay(NumOfDay){
+//            switch (NumOfDay){
+//                case "0":
+//                    alert("Sunday");
+//                    break;
+//                case "1":
+//                    alert("Monday");
+//                    break;
+//                case "2":
+//                    alert("Tuesday");
+//                    break;
+//                case "3":
+//                    alert("Wednesday");
+//                    break;
+//                case "4":
+//                    alert("Thursday");
+//                    break;
+//                case "5":
+//                    alert("Friday");
+//                    break;
+//                case "6":
+//                    alert("Saturday");
+//                    break;
+//            }
+//        }
+//        var Day=prompt("Enter Num Of Day");
+//        getDay(Day);
+//============4========
+//        function getDay1(){
+//            var Dt = new Date();
+//            alert ("Day=" + Dt.getDay());
+//            console.log()
+//            switch (Dt.getDay()){
+//                case 0:
+//                    alert("today is sun");
+//                    break;
+//                case 6:
+//                    alert("today is sat");
+//                    break;
+//                default :
+//                    alert("today is niether sat nor sun");
+//            }
+//        }
+//        getDay1();
+//==============6======
+
+//function checkCar() {
+//    var text;
+//    var favCar = prompt("What is your favorite car?");
+//    switch(favCar) {
+//        case "BMW":
+//            text="German Car";
+//            break;
+//        case "Ford":
+//            text="American Car";
+//            break;
+//        case "Peugeot":
+//            text="French Car";
+//            break;
+//        default :
+//            text="Unknown Car Name";
+//    }
+//    document.write( text);
+//}
+//checkCar();
+//========7=======
+//function checkFruit() {
+//    var text;
+//    var fruits = prompt("Enter a fruit name");
+//    switch(fruits) {
+//        case "Banana":
+//            text = "Banana is good!";
+//        case "Orange":
+//            text = "I am not a fan of orange.";
+//        case "Apple":
+//            text = "How you like them apples?";
+//
+//        default:
+//            text = "I have never heard of that fruit.";
+//    }
+//    document.write( text);
+//}
+//checkFruit();
+//==========8=========
+//        function grade(){
+//            gr=prompt("Enter Grade");
+//            switch (gr){
+//                case "A":
+//                    document.write("80+");
+//                    break;
+//                case "B":
+//                    document.write("70-80");
+//                    break;
+//                case "C":
+//                    document.write("60-70");
+//                    break;
+//                default :
+//                    document.write("Fail");
+//            }
+//
+//        }
+//        grade();
+//============9=========
+//        function  month(){
+//            var mt=prompt("Enter Month");
+//            switch (mt){
+//                case "1":
+//                    document.write("Jan");
+//                    break;
+//                case "2":
+//                    document.write("Feb");
+//                    break;
+//                case "3":
+//                    document.write("March");
+//                    break;
+//                case "4":
+//                    document.write("April");
+//                    break;
+//                case "5":
+//                    document.write("May");
+//                    break;
+//                case "6":
+//                    document.write("June");
+//                    break;
+//                case "7":
+//                    document.write("July");
+//                    break;
+//                case "8":
+//                    document.write("Aug");
+//                    break;
+//                case "9":
+//                    document.write("Sep");
+//                    break;
+//                case "10":
+//                    document.write("Oct");
+//                    break;
+//                case "11":
+//                    document.write("Nov");
+//                    break;
+//                case "12":
+//                    document.write("Dec");
+//                    break;
+//                default :
+//                    document.write("Unknown");
+//            }
+//        }
+//        month();
+//==========10===========
+//        var age=parseInt( prompt("Enter Age"));
+//
+//        var vote=(age<18)?"Too Young":"Old Enough";
+//        alert("Vote="+vote);
+//===========11==========
+//        var i=0;
+//        while(i<5){
+//            document.write ("Hello World<br>");
+//            i++;
+//        }
+//=========12=========
+//        var i=1;
+//        while(i<11){
+//            document.write(i + "<br>");
+//            i++;
+//        }
+//========13===========
+//        var tab=parseInt( prompt("Enter Table"));
+//        var lenth=parseInt( prompt("Enter Length"));
+//        var i=1;
+//        while (i<lenth+1){
+//            document.write(tab +  " X " + i + "=" + tab*i + "<br>");
+//            i++;
+//        }
+//========14========
+//    A=["Nokia","Samsung","Apple","Sony","Huawei"]
+//       var i=0;
+//        while(i< A.length){
+//            document.write(A[i]+"<br>");
+//            i++;
+//        }
+//=========15=========
+//        A=["apple","banana","mango","orange","strawberry"];
+//        var i=0;
+//        while (i< A.length){
+//            document.write(A[i]+"<br>");
+//            i++;
+//        }
+//
+//        i=0
+//        while(i< A.length){
+//            document.write("Element at index " + i + " is " + A[i] + "<br>");
+//            i++;
+//        }
+//============16==========
+        var N=parseInt(prompt("Enter Limit"));
+        var A=[];
+        var i=0;
+
+        while(i<N){
+            A[i]=prompt("Enter Item"+ i);
+            i++
+        }
+
+        document.write("Number of Items : "+N + "<br>");
+        document.write("Items:<br>");
+
+        i=0;
+        while(i<N){
+        document.write("<br>"+A[i]);
+            i++;
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
