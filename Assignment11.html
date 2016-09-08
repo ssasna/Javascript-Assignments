@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function expand(){
+            document.getElementById("Detail").style.visibility="visible";
+        }
+        function SaveRecord(){
+            document.getElementById("Add").innerHTML+= "<tr><td>"+ document.getElementById("st").value  +"</td><td>"+ document.getElementById("roll").value  +"</td> <td>"+ document.getElementById("email").value  +"</td> <td>"+ document.getElementById("course").value  +"</td>    </tr>";
+        }
+    </script>
+
+    <!-- Assignment 1-->
+
+    <a href="#" onclick="alert('You clicked on right link')" > Save Now</a>
+
+    <!-- Assignment 2-->
+
+    <button onclick="alert('you clicked on the right button')">Save Now</button>
+
+    <!-- Assignment 3-->
+
+    <a href="#" onclick="var Name=prompt('Enter Name');alert('Hello '+ Name)">Greet Me</a>
+
+
+    <!-- Assignment 4-->
+
+    <a href="#" onclick="var Name=prompt('Enter Name');alert('Length of your input is '+ Name.length )">Greet Me</a>
+
+    <!-- Assignment 5-->
+
+    <img src="JSLab11_ForStudents/1.jpg" width="=100" height="200" onclick="alert('Thanks for purchasing from us')">
+    <img src="JSLab11_ForStudents/2.jpg" width="=100" height="200" onclick="alert('Thanks for purchasing from us')">
+    <img src="JSLab11_ForStudents/3.jpg" width="=100" height="200" onclick="alert('Thanks for purchasing from us')">
+    <img src="JSLab11_ForStudents/4.jpg" width="=100" height="200" onclick="alert('Thanks for purchasing from us')">
+    <br><br><br>
+
+    <!-- Assignment 6a-->
+
+    <img src="JSLab11_ForStudents/5.jpg" width="=100" height="200" onmousemove=" src='JSLab11_ForStudents/2.jpg'" onmouseout="src='JSLab11_ForStudents/5.jpg'">
+
+    <!-- Assignment 6b-->
+    <br><br><br>
+
+    <img src="JSLab11_ForStudents/1.jpg" width="=100" height="200" onmouseover="this.width='200'; this.height='400'" onmouseout="this.width='100'; this.height='200'">
+    <img src="JSLab11_ForStudents/2.jpg" width="=100" height="200" onmouseover="this.width='200'; this.height='400'" onmouseout="this.width='100'; this.height='200'">
+    <img src="JSLab11_ForStudents/3.jpg" width="=100" height="200" onmouseover="this.width='200'; this.height='400'" onmouseout="this.width='100'; this.height='200'">
+    <img src="JSLab11_ForStudents/4.jpg" width="=100" height="200" onmouseover="this.width='200'; this.height='400'" onmouseout="this.width='100'; this.height='200'">
+
+    At this point don't worry now about how the function expand grows the paragraph. You'll
+    learn about that later.
+    <a href="#" onclick="document.getElementById('Detail').style.visibility='visible'">Click for more detail</a>
+    <div id="Detail" style="visibility: hidden">
+        In the example we started with, the model's before-and-after pictures, the onMouseover
+        event handler replaces the "before" picture with the "after" picture when the user mouses over
+        the image. Normally, you'd want the image to revert to the original when the user mouses away
+        from the picture. So you'd combine the onMouseover event handler with the onMouseout event
+        handler.
+
+    </div>
+    <!-- Assignment 7-->
+
+    Student <input type="text" id="st">
+    Roll Number <input type="text" id="roll">
+    Email <input type="text" id="email">
+    Course  <select name="course" id="course">
+                <option value="html" >HTML</option>
+                <option value="html" >CSS</option>
+                <option value="html" >JScript</option>
+            </select>
+    <button value="Save" onclick="SaveRecord()">Save</button>
+
+    <table id="Add" border="1">
+        <tr>
+            <td>Name</td>
+            <td>Roll</td>
+            <td>Email</td>
+            <td>Course</td>
+        </tr>
+    </table>
+
+
+
+</head>
+<body>
+
+</body>
+</html>
