@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        //==========1========
+//        var Student={
+//            Name:"Ali",
+//            age:20,
+//            Student_Id:420
+//        };
+//        //========2=========
+//
+//
+//        alert("Name="+Student.Name);
+//        alert("Age="+Student.age);
+//        alert("Id="+Student.Student_Id);
+//
+//        //=======3=========
+//        var StudentBio={
+//            FirstName:"Ali",
+//            LastName:"Last",
+//            Age:20,
+//            ID:7750,
+//            ContactNo:"0233-2229090",
+//            FatherName:"Sultan",
+//            Address:"Gulshan"
+//        };
+//    //==========4========
+//        var StudentMarksSheet={
+//            Student_Name:"Zia Khan",
+//            Student_ID:"J30051123634",
+//            Subject_HTML:80,
+//            Student_CSS:90,
+//            Student_JavaScript:90,
+//            Student_BootStrap:80,
+//            Total_Marks:400
+//        };
+    //====================
+
+//        function St (N, A){
+//          this.Name=N,
+//          this.Age=A
+//        };
+//
+//        var st1= new St("Jia",21);
+//        alert   (st1.Name);
+//        alert(st1.Age);
+//
+//        var st2=new St("Ribaha",19);
+//        alert(st2.Name);
+//        alert(st2.Age);
+//
+
+//============5=============
+//        function eligible (N,A){
+//            this.Name=N,
+//            this.check=function (A){
+//                if (A<20){
+//                return true;
+//                }
+//                else{
+//                    return false;
+//                }
+//            }
+//        };
+//        var e1 =new eligible("Rauhaan",22)
+//        alert(e1.check());
+
+//============6==========
+
+        function Student(N,ID,Subject1,Subject2,Subject3,Subject4,T){
+            var Name=N;
+            var St_ID=ID;
+            var Sub1=parseInt( Subject1);
+            var Sub2=parseInt( Subject2);
+            var Sub3=parseFloat( Subject3);
+            var Sub4=parseInt( Subject4);
+            var Total=T;
+            var addition  = function(Sub1,Sub2,Sub3,Sub4){
+                var total = 400;
+//                var p=Number(Sub1)+Number(Sub2)+Number(Sub3)+Number(Sub4);
+                var add = Subject1+Subject2+Subject3+Subject4;
+                return add
+            }
+        };
+
+            var st1=new Student("Zia Khan","J30052425300",80,90,90,70,400);
+            var st2=new Student("Zia Khan","J30052425300",60,70,65,85,400);
+
+        alert(addition());
+//        alert(st2.addition());
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
